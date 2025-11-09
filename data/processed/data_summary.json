@@ -1,0 +1,39 @@
+{
+  "total_transactions": 5480,
+  "date_range": {
+    "start": "2017-10-16",
+    "end": "2025-10-27",
+    "days": 2933
+  },
+  "unique_addresses": {
+    "senders": 1223,
+    "receivers": 105,
+    "total": 1319
+  },
+  "transaction_values": {
+    "total_eth": 59763.39711799685,
+    "mean_eth": 10.905729401094316,
+    "median_eth": 0.0,
+    "std_eth": 109.13529762571295,
+    "min_eth": 0.0,
+    "max_eth": 4400.0
+  },
+  "special_transactions": {
+    "contract_creations": 3,
+    "errors": 0
+  },
+  "top_senders": {
+    "0x00000c07575bb4e64457687a0382b4d3ea470000": 384,
+    "0x00b5c29b7bcc4491e5fc7dd9d68e3aa4c8adf4ae": 115,
+    "0xcd5f8fa45e0ca0937f86006b9ee8fe1eedee5fc4": 78,
+    "0x01349510117dc9081937794939552463f5616dfb": 73,
+    "0x8d44eaae757884f4f8fb4664d07acecee71cfd89": 63
+  },
+  "top_receivers": {
+    "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": 4917,
+    "0x00000c07575bb4e64457687a0382b4d3ea470000": 152,
+    "0x6131b5fae19ea4f9d964eac0408e4408b66337b5": 39,
+    "0x3fc91a3afd70395cd496c647d5a6cc9d4b2b7fad": 28,
+    "0x04c17b9d3b29a78f7bd062a57cf44fc633e71f85": 26
+  }
+}

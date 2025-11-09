@@ -1,0 +1,23 @@
+{
+  "total_nodes": 1318,
+  "labeled_nodes": 28,
+  "unlabeled_nodes": 1290,
+  "illicit_nodes": 27,
+  "licit_nodes": 1,
+  "label_sources": {
+    "heuristic: short_lived_high_value, high_repetition": 23,
+    "heuristic: short_lived_high_value, high_repetition, night_activity": 2,
+    "heuristic: short_lived_high_value, round_numbers": 2,
+    "heuristic: long_lived, diverse_counterparties": 1
+  },
+  "confidence_distribution": {
+    "high (>0.8)": 0,
+    "medium (0.5-0.8)": 28,
+    "low (<0.5)": 0
+  },
+  "label_percentages": {
+    "illicit": "2.05%",
+    "licit": "0.08%",
+    "unknown": "97.88%"
+  }
+}

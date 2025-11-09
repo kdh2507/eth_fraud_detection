@@ -19,10 +19,11 @@ venv/
 .idea/
 
 # ---- Data & Logs ----
-*.log
-*.csv
+#Allow pushing data for now (test set)
+#*.log
+#*.csv
 *.tsv
-*.json
+#*.json
 *.pkl
 *.db
 *.sqlite
@@ -32,9 +33,6 @@ venv/
 *.tar
 *.tar.gz
 #data/
-datasets/
-outputs/
-results/
 
 # ---- Jupyter ----
 .ipynb_checkpoints/

@@ -285,7 +285,7 @@ def create_manual_labeling_candidates(features, top_k=50):
     ]
 
     # Save candidates to CSV for manual review
-    candidates.to_csv('manual_labeling_candidates.csv', index=False)
+    candidates.to_csv('data/processed/manual_labeling_candidates.csv', index=False)
     print(f"  ✓ Saved top candidates to: manual_labeling_candidates.csv")
     print(f"  → Review these addresses and add them to blacklist/whitelist")
 
