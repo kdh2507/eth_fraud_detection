@@ -1,0 +1,44 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+venv/
+.env
+.venv/
+.envrc
+.DS_Store
+
+# ---- IDEs ----
+# VSCode / PyCharm
+.vscode/
+.idea/
+
+# ---- Data & Logs ----
+*.log
+*.csv
+*.tsv
+*.json
+*.pkl
+*.db
+*.sqlite
+*.h5
+*.zip
+*.gz
+*.tar
+*.tar.gz
+#data/
+datasets/
+outputs/
+results/
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+*.ipynb
+
+# ---- OS Files ----
+Thumbs.db
