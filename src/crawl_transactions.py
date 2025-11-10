@@ -16,11 +16,26 @@ OUTPUT_FILE = "data/raw/raw_transactions.json"
 RATE_LIMIT_DELAY = 0.2  # 5 calls per second for free tier
 
 ADDRESSES_TO_CRAWL = [
+    # Your originals
     "0x00000c07575Bb4e64457687A0382b4D3Ea470000",  # Scam
-    "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",  # Legit
+    "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",  # Legit (WETH)
     "0xd7A38B39CeBBD766baEF23fEBC6d367DC552Bb67",  # Unknown
-]
 
+    # Illicit (Etherscan-tagged phishing/scam)
+    "0xd9a1c3788d81257612e2581a6ea0ada244853a91",  # Scam
+    "0x474057adf42f9f955e86aa1142740f9d7763e41e",  # Scam
+    "0xd13b093ea3a0b9b7a2f3b2a4a0e6cc2d2b0abf9e",  # Scam
+    "0x000011389c8a3a3e4ce1b1d8b4c1ef2f0efd3b0000",  # Scam
+
+    # Licit (exchanges, tokens, routers)
+    "0xF977814e90dA44bFA03b6295A0616a897441aceC",  # Binance Hot Wallet 20
+    "0xDA9dfA130Df4dE4673b89022EE50ff26f6EA73Cf",  # Kraken 13
+    "0xBE0eB53F46cd790cd13851d5EFf43D12404d33E8",  # Binance 7
+    "0x267be1c1d684f78cb4f6a176c4911b741e4ffdc0",  # Kraken 4
+    "0x68b3465833fb72A70ecDF485E0e4C7bD8665Fc45",  # Uniswap V3 Router 2
+    "0xdAC17F958D2ee523a2206206994597C13D831ec7",  # Tether USDT
+    "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",  # Circle USDC
+]
 
 def get_transactions(address, start_block=0, end_block='latest', page=1, offset=1000):
     """
